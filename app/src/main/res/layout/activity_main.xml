@@ -6,16 +6,29 @@
     tools:context="com.example.marcelo.rxexample.presentation.MainActivity">
 
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="clickButton"
-        android:text="Boton"/>
-
-    <EditText
-        android:layout_alignParentBottom="true"
+    <TextView
+        android:id="@+id/text_view_init_message"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Hola aqui pruebalo"/>
+        android:layout_margin="32dp"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:text="Presione Aceptar y se cargará la información desde internet"/>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickButton"
+        android:layout_alignParentBottom="true"
+        android:text="Aceptar"/>
+
 
 </RelativeLayout>
