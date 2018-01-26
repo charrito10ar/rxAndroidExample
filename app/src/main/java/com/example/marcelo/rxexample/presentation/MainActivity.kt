@@ -5,8 +5,11 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import com.example.marcelo.rxexample.R
+<<<<<<< HEAD
 import com.example.marcelo.rxexample.presentation.interfaces.MainActivityView
 import kotlinx.android.synthetic.main.activity_main.*
+=======
+>>>>>>> 1dc5ce8326e315da8dbba15161edeaddca736a3c
 import rx.Observable
 import rx.Observable.OnSubscribe
 import rx.Observable.create
@@ -14,6 +17,7 @@ import rx.Subscriber
 import rx.android.schedulers.AndroidSchedulers
 import rx.schedulers.Schedulers
 
+<<<<<<< HEAD
 class MainActivity : AppCompatActivity(), MainActivityView {
 
     override fun showLoading() {
@@ -23,6 +27,9 @@ class MainActivity : AppCompatActivity(), MainActivityView {
     override fun hideLoading() {
         progress_bar.visibility = View.GONE
     }
+=======
+class MainActivity : AppCompatActivity() {
+>>>>>>> 1dc5ce8326e315da8dbba15161edeaddca736a3c
 
     lateinit var operationObservable: Observable<String>
 
@@ -60,4 +67,8 @@ class MainActivity : AppCompatActivity(), MainActivityView {
         }
         return "Complete!"
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 1dc5ce8326e315da8dbba15161edeaddca736a3c

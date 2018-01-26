@@ -6,6 +6,7 @@
     tools:context="com.example.marcelo.rxexample.presentation.MainActivity">
 
 
+<<<<<<< HEAD
     <TextView
         android:id="@+id/text_view_init_message"
         android:layout_width="match_parent"
@@ -30,5 +31,18 @@
         android:layout_alignParentBottom="true"
         android:text="Aceptar"/>
 
+=======
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="clickButton"
+        android:text="Boton"/>
+
+    <EditText
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hola aqui pruebalo"/>
+>>>>>>> 1dc5ce8326e315da8dbba15161edeaddca736a3c
 
 </RelativeLayout>
